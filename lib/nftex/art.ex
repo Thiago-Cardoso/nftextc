@@ -16,9 +16,9 @@ defmodule Nftex.Art do
     timestamps()
   end
 
-  def changeset(art, attrs) do
-    art
-    |> cast(attrs, @fields)
+  def changeset(params) do
+    %__MODULE__{}
+    |> cast(params, @fields)
     |> validate_required(@fields)
   end
 end
