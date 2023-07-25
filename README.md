@@ -14,7 +14,7 @@
 
            http://localhost:4000/api/arts
      
-## query
+### Query
 
 1. post
 
