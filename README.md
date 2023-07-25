@@ -84,6 +84,8 @@ docker-compose build
 ```
 docker-compose up - d
 
+Configure of database in config/dev.exs
+
 Elixir/Phoenix
 install elixir with asdf
 asdf plugin-add erlang
