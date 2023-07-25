@@ -13,16 +13,23 @@
           http://localhost:4000/api/graphiql
 
            http://localhost:4000/api/arts
+     
+## query
 
-Post
+1. post
+
+```
 mutation {
   createArt(input: {description: "Fruit paiting", hash: "xpto1234", artistName: "Gabriel", price: 2.80} ){
     id
     description
   }
 }
+```
 
-Get
+2.  get
+
+```
 {
   art(id: "b99714f5-037d-44e8-b61e-7e2e827f1ba6"){
     description
@@ -31,6 +38,8 @@ Get
     artistName
   }
 }
+```
+
   
 ## Getting Started
 
